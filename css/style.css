@@ -1,7 +1,7 @@
 body {
   padding: 0;
-  margin: 0;
-  height: 10000px;
+  margin: 0px;
+  height: 0px;
   font-family: "Raleway", sans-serif;
 }
 .wel {
@@ -39,7 +39,7 @@ body {
   margin-top: 15px;
   padding: 15px;
   width: 30%;
-  background: aquamarine;
+  background: #00da6e;
   border: none;
   border-radius: 25px;
   font-size: larger;
@@ -47,7 +47,7 @@ body {
 }
 .exbtn:hover {
   background: white;
-  color: rgb(0, 215, 190);
+  color: #00da6e;
 }
 
 ul {
@@ -98,7 +98,6 @@ article {
   width: 70%;
   margin: 0px auto;
   display: flex;
-
   padding: 20px;
   line-height: 30px;
 }
@@ -111,7 +110,7 @@ article {
   margin-top: 15px;
   padding: 15px;
   width: 30%;
-  background: aquamarine;
+  background: #00da6e;
   border: none;
   border-radius: 25px;
   font-size: larger;
@@ -119,7 +118,7 @@ article {
 }
 .btn:hover {
   background: rgb(0, 0, 0);
-  color: rgb(0, 215, 190);
+  color: #00da6e;
 }
 
 .button {
@@ -159,7 +158,6 @@ article {
   justify-content: space-evenly;
   height: 280px;
   width: 280px;
-
   padding: 30px;
   margin: 20px;
   border-radius: 15px;
@@ -203,7 +201,7 @@ article {
 }
 
 .vm:hover {
-  color: rgb(27, 233, 27);
+  color: #00da6e;
 }
 .vm a {
   text-decoration: none;
@@ -211,7 +209,7 @@ article {
   transition: 0.3s;
 }
 .vm:hover a {
-  color: rgb(27, 233, 27);
+  color: #00da6e;
 }
 
 .mission {
@@ -230,7 +228,7 @@ article {
 .mission .exbtn {
   display: block;
   position: absolute;
-  background-color: rgb(27, 233, 27);
+  background-color: #00da6e;
   right: 176px;
   margin-top: 486px;
   width: 14%;
@@ -240,7 +238,7 @@ article {
 
 .mission .exbtn:hover {
   background-color: white;
-  color: rgb(27, 233, 27);
+  color: #00da6e;
 }
 
 .auth {
@@ -281,4 +279,70 @@ article {
   width: 70%;
   line-height: 30px;
   padding: 25px;
+}
+
+.fcontact {
+  position: relative;
+  margin-top: 15px;
+  height: 500px;
+}
+
+.leaf {
+  position: absolute;
+
+  width: 100%;
+  margin: 0px auto;
+}
+
+.contact-container {
+  position: absolute;
+  text-align: center;
+  color: rgb(129 129 129);
+  width: 100%;
+  margin-top: 40px;
+}
+
+.contact-container h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.flexbox {
+  display: flex;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 70px;
+}
+.conbox {
+  margin: 20px;
+  padding: 20px;
+  width: 285px;
+  height: 210px;
+  color: white;
+
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.icon {
+  color: #00da6e;
+  font-size: 60px;
+  margin: 5px;
+}
+.medium {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.last p {
+  margin: 15px;
+  margin-top: 40px;
+  color: rgb(129 129 129);
+}
+.conbtn a {
+  text-decoration: none;
+  color: rgb(129 129 129);
+  font-weight: 100;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
