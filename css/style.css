@@ -248,11 +248,15 @@ article {
   margin-top: 700px;
   text-align: center;
 }
-
-.auth img {
+.sym {
   display: block;
+  width: 70%;
+  margin: 0px auto;
   position: absolute;
-  /* flex: ;*/
+  opacity: 5%;
+  margin-left: 210px;
+  margin-top: -94px;
+  transform: rotate(180deg);
 }
 
 .auth p {
@@ -260,12 +264,15 @@ article {
   width: 100%;
   color: gray;
 }
+.authphoto {
+  display: block;
+}
 
-.photo img {
-  margin: 20px;
+.photo {
   border-radius: 75px;
   width: 11%;
-  height: 149px;
+  height: 150px;
+  margin-top: 10px;
 }
 
 .say {
@@ -273,4 +280,5 @@ article {
   margin: 0px auto;
   width: 70%;
   line-height: 30px;
+  padding: 25px;
 }
