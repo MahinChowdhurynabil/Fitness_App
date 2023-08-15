@@ -252,7 +252,7 @@ article {
 .auth img {
   display: block;
   position: absolute;
-  flex: ;
+  /* flex: ;*/
 }
 
 .auth p {
