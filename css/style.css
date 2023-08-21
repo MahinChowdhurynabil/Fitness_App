@@ -7,10 +7,12 @@ body {
 .wel {
   background-image: url("/img/bg.png");
   background-size: cover;
+  position: sticky;
 }
 .blogo img {
   width: 6%;
-  margin: 25px;
+  margin: 10px;
+  margin-left: 20px;
 }
 
 .cover {
@@ -55,18 +57,17 @@ ul {
 }
 li {
   display: inline;
-  color: antiquewhite;
   font-size: 30px;
+  padding: 8px;
 }
 
-.fa {
-  color: antiquewhite;
-  font-size: 30px;
-  text-decoration: none;
+.social a {
+  color: aliceblue;
+  position: sticky;
 }
-
-.fa:hover {
-  font-size: 35px;
+.social a:hover {
+  color: rgb(83%, 26%, 20%);
+  transition: 0.3s;
 }
 
 .contact {
@@ -74,6 +75,9 @@ li {
   padding: 5px;
   padding-bottom: 15px;
   margin-top: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
 }
 
 .welcon {
@@ -104,6 +108,7 @@ article {
 
 .item {
   padding: 25px;
+  color: rgb(94, 92, 92);
 }
 
 .btn {
@@ -125,6 +130,7 @@ article {
   display: block;
   width: 80%;
   margin: 10px auto;
+  margin-top: -10px;
   align-content: center;
   text-align: center;
 }
@@ -133,6 +139,7 @@ article {
   background: url(/img/bgr.png);
   background-size: contain;
   background-repeat: repeat;
+  margin-top: 70px;
 }
 
 .main-container {
@@ -142,10 +149,12 @@ article {
 
 .service {
   text-align: center;
+  margin-bottom: 70px;
 }
 
 .service h1 {
   font-size: 50px;
+  margin-bottom: -5px;
 }
 
 .post {
@@ -172,7 +181,6 @@ article {
 
 .logo {
   background-color: rgb(27, 233, 27);
-
   border-radius: 25px;
   height: 50px;
   width: 50px;
@@ -217,6 +225,7 @@ article {
   margin: 0px auto;
   padding: 25px;
   width: 85%;
+  margin-top: 70px;
 }
 
 .mission img {
@@ -279,25 +288,27 @@ article {
   width: 70%;
   line-height: 30px;
   padding: 25px;
+  color: rgb(95, 95, 95);
 }
 
 .fcontact {
   position: relative;
-  margin-top: 15px;
+  margin-top: 80px;
   height: 500px;
 }
 
 .leaf {
   position: absolute;
-
   width: 100%;
   margin: 0px auto;
+  object-fit: cover;
+  height: 160%;
 }
 
 .contact-container {
   position: absolute;
   text-align: center;
-  color: rgb(129 129 129);
+  color: rgb(150, 150, 150);
   width: 100%;
   margin-top: 40px;
 }
@@ -305,6 +316,7 @@ article {
 .contact-container h1 {
   color: white;
   font-size: 50px;
+  margin-bottom: -5px;
 }
 
 .flexbox {
@@ -319,7 +331,6 @@ article {
   width: 285px;
   height: 210px;
   color: white;
-
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.15);
 }
@@ -338,11 +349,11 @@ article {
 .last p {
   margin: 15px;
   margin-top: 40px;
-  color: rgb(129 129 129);
+  color: rgb(150, 150, 150);
 }
 .conbtn a {
   text-decoration: none;
-  color: rgb(129 129 129);
+  color: rgb(150, 150, 150);
   font-weight: 100;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
